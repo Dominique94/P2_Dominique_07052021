@@ -8,6 +8,8 @@ body {
 nav {
   text-align: right;
   width:100%;
+  margin: 20px;
+  padding-right: 50px;
 }
 
 
@@ -41,21 +43,25 @@ header {
 
 .activites {
     height: 500px;
-    background-color: black;
+    background-color: white;
+    margin-bottom: 10px; 
 }
 
 footer {
+  margin-top: 50px;
     background-color: #F2F2F2;
     display: flex;
 }
 
 .footer-column {
-
     background-color: #F2F2F2;
     align-items: center;
     margin: 5px
 }
 
+.footer-align {
+  display:flex;
+}
 
 #marseille {
   display: flex;
@@ -118,30 +124,40 @@ footer {
     border-radius: 10px;
 }
 
+.popularity-description {
+display:block;
 
-.activites-wrapper {
-  display:flex;
-  background-color: rgb(145, 33, 33);
-  flex-direction:column;
-  border-radius: 10px;
-  padding:1rem 2rem 1rem 2rem;
 }
 
 #activites-marseille {
   display: flex;
-  width:auto;
+}
+
+.activites-wrapper {
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, .25);
+  margin: 1rem;
 }
 
 .activites-image {
- width: auto;
  border-radius:10px;
- height: 100%;
+ flex:1;
+ object-fit: cover;
 }
-/*
+
 .activites-article {
- 
+ overflow: hidden;
+ justify-content: center;
+ display: flex;
+ flex-direction: column;
+ border-radius: 10px;
+ height: 500px;
+ flex: 1;
 }
-*/
+
 
 li {
   list-style: none;
@@ -159,12 +175,55 @@ input {
 
 .fa-dog {
   border-radius: 10px;
+  padding: 5px;
+  color: #0065FC;
+}
 
+.fa-child {
+  border-radius:10px;
+  padding: 5px;
+  color: #0065FC;
+}
+
+.fa-heart {
+  border-radius:10px;
+  padding: 5px;
+  color: #0065FC;
+}
+
+.fa-money-bill-wave {
+  border-radius:10px;
+  padding:5px;
+  color: #0065FC; 
 }
 
 .fa-star {
   color: #0065FC;
   }
+
+.fa-map-marker-alt {
+  border-radius: 10px;
+}
+
+input[value="Rechercher"] {
+  background-color: #0065FC;
+  border-radius: 10px;
+  padding: 7px;
+  color: white;
+}
+
+input[type="text"] {
+  border-radius: 10px;
+  padding: 7px;
+}
+
+.map-icon {
+  border: solid;
+  padding: 3px;
+  background-color: #F2F2F2;
+  border-radius: 5px;
+  border-color:#F2F2F2;
+}
 
 button {
   border-radius: 10px;
@@ -187,11 +246,6 @@ a {
 }
 
 
-
-#toggle {
-  display: flex;
-  flex-direction: row;
-}
 
 /*
 #activites-marseille{
