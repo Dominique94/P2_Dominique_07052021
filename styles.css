@@ -5,6 +5,7 @@ body {
   padding: 10px;
   font-family: "Raleway";
 }
+
 * {
   box-sizing: border-box
 }
@@ -85,7 +86,7 @@ footer {
 
 .footer-column {
     background-color: #F2F2F2;
-    margin: 5px
+    margin: 5px;
 }
 
 #border-activites:hover {
@@ -262,6 +263,7 @@ background-color: white;
 li {
   list-style: none;
 }
+
 
 @font-face {
   font-family: "Raleway";
